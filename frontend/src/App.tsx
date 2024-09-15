@@ -1,5 +1,5 @@
-import reflect from "./assets/images/bluelock/reflect.jpg";
 import "./App.css";
+import { Scene } from "./Scene";
 
 function App() {
   return (
@@ -13,15 +13,7 @@ function App() {
           height: "100vh",
         }}
       >
-        <img
-          src={reflect}
-          id="reflect"
-          alt="reflect"
-          style={{
-            maxHeight: "100%",
-            maxWidth: "100%",
-          }}
-        />
+        <Scene />
       </div>
     </div>
   );
